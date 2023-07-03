@@ -31,6 +31,7 @@ const Canvas = ({ height, width }: any) => {
 
 	return (
 		<canvas
+			id={'canvas'}
 			height={height}
 			width={width}
 			style={canvasStyle}
